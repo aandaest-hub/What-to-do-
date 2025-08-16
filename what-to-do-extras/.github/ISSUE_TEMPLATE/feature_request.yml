@@ -1,0 +1,15 @@
+name: Feature request
+description: Запрос функции
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую проблему решаем?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предложение
+      placeholder: Коротко и по делу

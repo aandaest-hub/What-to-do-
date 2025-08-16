@@ -1,0 +1,17 @@
+name: Bug report
+description: Сообщить об ошибке
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Что произошло?
+      description: Опиши шаги воспроизведения и ожидаемое поведение
+      placeholder: Шаги, актуальное/ожидаемое
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Окружение
+      placeholder: iOS/Android, версия ОС, версия приложения
